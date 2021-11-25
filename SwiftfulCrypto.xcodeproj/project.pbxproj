@@ -25,6 +25,7 @@
 		7FDC7435274FE94000B3578A /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC7434274FE94000B3578A /* CoinImageView.swift */; };
 		7FDC7438274FEBDE00B3578A /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC7437274FEBDE00B3578A /* CoinImageService.swift */; };
 		7FDC743B274FEEAD00B3578A /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC743A274FEEAD00B3578A /* CoinImageViewModel.swift */; };
+		7FDC743E274FFE8B00B3578A /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC743D274FFE8B00B3578A /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		7FDC7434274FE94000B3578A /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		7FDC7437274FEBDE00B3578A /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		7FDC743A274FEEAD00B3578A /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		7FDC743D274FFE8B00B3578A /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				7FDC7430274FD48100B3578A /* NetworkManager.swift */,
+				7FDC743D274FFE8B00B3578A /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				7FDC7420274E20CE00B3578A /* CoinRowView.swift in Sources */,
 				7FDC7429274F9B5B00B3578A /* HomeViewModel.swift in Sources */,
 				7FDC7431274FD48100B3578A /* NetworkManager.swift in Sources */,
+				7FDC743E274FFE8B00B3578A /* LocalFileManager.swift in Sources */,
 				7FDC73F1274D48CC00B3578A /* ContentView.swift in Sources */,
 				7FDC7435274FE94000B3578A /* CoinImageView.swift in Sources */,
 				7FDC7409274D566F00B3578A /* HomeView.swift in Sources */,
