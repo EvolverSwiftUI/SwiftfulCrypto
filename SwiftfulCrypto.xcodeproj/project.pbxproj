@@ -20,6 +20,8 @@
 		7FDC7423274E216200B3578A /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC7422274E216200B3578A /* PreviewProvider.swift */; };
 		7FDC7426274F7C0E00B3578A /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC7425274F7C0E00B3578A /* Double.swift */; };
 		7FDC7429274F9B5B00B3578A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC7428274F9B5B00B3578A /* HomeViewModel.swift */; };
+		7FDC742D274FAB6300B3578A /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC742C274FAB6300B3578A /* CoinDataService.swift */; };
+		7FDC7431274FD48100B3578A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC7430274FD48100B3578A /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		7FDC7422274E216200B3578A /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		7FDC7425274F7C0E00B3578A /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		7FDC7428274F9B5B00B3578A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		7FDC742C274FAB6300B3578A /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		7FDC7430274FD48100B3578A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +75,9 @@
 			isa = PBXGroup;
 			children = (
 				7FDC73EE274D48CC00B3578A /* SwiftfulCryptoApp.swift */,
+				7FDC742F274FD45600B3578A /* Utilities */,
 				7FDC73FF274D4FB300B3578A /* Extensions */,
+				7FDC742B274FAB1500B3578A /* Services */,
 				7FDC7414274D664300B3578A /* Models */,
 				7FDC7404274D563000B3578A /* Core */,
 				7FDC73F0274D48CC00B3578A /* ContentView.swift */,
@@ -160,6 +166,22 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		7FDC742B274FAB1500B3578A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7FDC742C274FAB6300B3578A /* CoinDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7FDC742F274FD45600B3578A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7FDC7430274FD48100B3578A /* NetworkManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -229,8 +251,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FDC742D274FAB6300B3578A /* CoinDataService.swift in Sources */,
 				7FDC7420274E20CE00B3578A /* CoinRowView.swift in Sources */,
 				7FDC7429274F9B5B00B3578A /* HomeViewModel.swift in Sources */,
+				7FDC7431274FD48100B3578A /* NetworkManager.swift in Sources */,
 				7FDC73F1274D48CC00B3578A /* ContentView.swift in Sources */,
 				7FDC7409274D566F00B3578A /* HomeView.swift in Sources */,
 				7FDC741D274D7D8E00B3578A /* CircleButtonView.swift in Sources */,
