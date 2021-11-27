@@ -36,6 +36,11 @@ struct PortfolioView: View {
                 }
             })
 //            .navigationBarItems(leading: XMarkButton()) // depricated, use like above tool bar
+            .onChange(of: vm.searchText, perform: { value in
+                if value == "" {
+                    removeSelectedCoin()
+                }
+            })
         }
     }
 }
@@ -53,12 +58,12 @@ extension PortfolioView {
         
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHStack(spacing: 10) {
-                ForEach(vm.allCoins) { coin in
+                ForEach(vm.searchText.isEmpty ? vm.portfolioCoins : vm.allCoins) { coin in
                     CoinLogoView(coin: coin)
                         .frame(width: 75)
                         .onTapGesture {
                                 withAnimation(.easeIn) {
-                                    selectedCoin = coin
+                                    updateSelectedCoin(coin: coin)
                                 }
                         }
                         .padding(4)
@@ -73,6 +78,17 @@ extension PortfolioView {
             }
             .frame(height: 120)
             .padding(.leading)
+        }
+    }
+    
+    private func updateSelectedCoin(coin: CoinModel) {
+        selectedCoin = coin
+
+        if let portfolioCoin = vm.portfolioCoins.first(where: { $0.id == coin.id }),
+           let amount = portfolioCoin.currentHoldings {
+            quantityText = "\(amount)"
+        } else {
+            quantityText = ""
         }
     }
     
@@ -130,9 +146,13 @@ extension PortfolioView {
     
     private func saveButtonTapped() {
         
-        guard let coin = selectedCoin else { return }
+        guard
+            let coin = selectedCoin,
+            let amount = Double(quantityText)
+            else { return }
         
-        // save to fortfolio
+        // save to portfolio [ using core data container ]
+        vm.updatePortfolio(coin: coin, amount: amount)
         
         // show checkmark
         withAnimation(.easeIn) {
