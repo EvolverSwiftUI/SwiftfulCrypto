@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F368BD92753F8C70082A626 /* CoinDetailDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F368BD82753F8C70082A626 /* CoinDetailDataService.swift */; };
 		7FDC73EF274D48CC00B3578A /* SwiftfulCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC73EE274D48CC00B3578A /* SwiftfulCryptoApp.swift */; };
 		7FDC73F1274D48CC00B3578A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC73F0274D48CC00B3578A /* ContentView.swift */; };
 		7FDC73F3274D48CD00B3578A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FDC73F2274D48CD00B3578A /* Assets.xcassets */; };
@@ -40,9 +41,12 @@
 		7FDC746F27525AC000B3578A /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC746E27525AC000B3578A /* PortfolioDataService.swift */; };
 		7FDC747227533B0C00B3578A /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC747127533B0C00B3578A /* HapticManager.swift */; };
 		7FDC74782753E19A00B3578A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC74772753E19A00B3578A /* DetailView.swift */; };
+		7FDC747C2753F17300B3578A /* CoinDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC747B2753F17300B3578A /* CoinDetailModel.swift */; };
+		7FDC74802753F78800B3578A /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC747F2753F78800B3578A /* DetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F368BD82753F8C70082A626 /* CoinDetailDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailDataService.swift; sourceTree = "<group>"; };
 		7FDC73EB274D48CC00B3578A /* SwiftfulCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FDC73EE274D48CC00B3578A /* SwiftfulCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulCryptoApp.swift; sourceTree = "<group>"; };
 		7FDC73F0274D48CC00B3578A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 		7FDC746E27525AC000B3578A /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		7FDC747127533B0C00B3578A /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 		7FDC74772753E19A00B3578A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		7FDC747B2753F17300B3578A /* CoinDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDetailModel.swift; sourceTree = "<group>"; };
+		7FDC747F2753F78800B3578A /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				7FDC7415274D668100B3578A /* CoinModel.swift */,
+				7FDC747B2753F17300B3578A /* CoinDetailModel.swift */,
 				7FDC74482751100900B3578A /* StatisticModel.swift */,
 				7FDC745527514EEB00B3578A /* MarketDataModel.swift */,
 				7FDC746A275259A300B3578A /* PortfolioContainer.xcdatamodeld */,
@@ -217,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				7FDC742C274FAB6300B3578A /* CoinDataService.swift */,
+				7F368BD82753F8C70082A626 /* CoinDetailDataService.swift */,
 				7FDC7437274FEBDE00B3578A /* CoinImageService.swift */,
 				7FDC745827515B5900B3578A /* MarketDataService.swift */,
 				7FDC746E27525AC000B3578A /* PortfolioDataService.swift */,
@@ -264,6 +272,7 @@
 		7FDC74762753E15000B3578A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				7FDC747F2753F78800B3578A /* DetailViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -366,7 +375,10 @@
 				7FDC745C2752054300B3578A /* PortfolioView.swift in Sources */,
 				7FDC7426274F7C0E00B3578A /* Double.swift in Sources */,
 				7FDC7438274FEBDE00B3578A /* CoinImageService.swift in Sources */,
+				7FDC747C2753F17300B3578A /* CoinDetailModel.swift in Sources */,
 				7FDC7416274D668100B3578A /* CoinModel.swift in Sources */,
+				7F368BD92753F8C70082A626 /* CoinDetailDataService.swift in Sources */,
+				7FDC74802753F78800B3578A /* DetailViewModel.swift in Sources */,
 				7FDC746F27525AC000B3578A /* PortfolioDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
