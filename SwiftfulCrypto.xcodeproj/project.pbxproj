@@ -38,6 +38,7 @@
 		7FDC7464275214BD00B3578A /* CoinLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC7463275214BD00B3578A /* CoinLogoView.swift */; };
 		7FDC746C275259A300B3578A /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC746A275259A300B3578A /* PortfolioContainer.xcdatamodeld */; };
 		7FDC746F27525AC000B3578A /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC746E27525AC000B3578A /* PortfolioDataService.swift */; };
+		7FDC747227533B0C00B3578A /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDC747127533B0C00B3578A /* HapticManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		7FDC7463275214BD00B3578A /* CoinLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinLogoView.swift; sourceTree = "<group>"; };
 		7FDC746B275259A300B3578A /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		7FDC746E27525AC000B3578A /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
+		7FDC747127533B0C00B3578A /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +226,7 @@
 			children = (
 				7FDC7430274FD48100B3578A /* NetworkManager.swift */,
 				7FDC743D274FFE8B00B3578A /* LocalFileManager.swift */,
+				7FDC747127533B0C00B3578A /* HapticManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				7FDC74462750A6A500B3578A /* UIApplication.swift in Sources */,
 				7FDC741D274D7D8E00B3578A /* CircleButtonView.swift in Sources */,
 				7FDC73EF274D48CC00B3578A /* SwiftfulCryptoApp.swift in Sources */,
+				7FDC747227533B0C00B3578A /* HapticManager.swift in Sources */,
 				7FDC74412750125000B3578A /* SearchBarView.swift in Sources */,
 				7FDC7401274D4FF900B3578A /* Color.swift in Sources */,
 				7FDC7464275214BD00B3578A /* CoinLogoView.swift in Sources */,
