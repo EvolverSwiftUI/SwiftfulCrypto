@@ -24,9 +24,14 @@ class NetworkManager {
     
     static func download(url: URL) -> AnyPublisher<Data, Error> {
         return URLSession.shared.dataTaskPublisher(for: url)
-            .subscribe(on: DispatchQueue.global(qos: .default))
+            // as by default subscribe to background thread
+            // so no need to explicitly write it, we can comment it.
+            //.subscribe(on: DispatchQueue.global(qos: .default))
             .tryMap({ try handleURLResponse(output: $0, url: url)})
-            .receive(on: DispatchQueue.main)
+            // as we move the decode task also onto background thread then after that move to foreground thread
+            // instead of writing here, mention after decode modifier
+            //.receive(on: DispatchQueue.main)
+            .retry(3) // if it fails, it will repeat for 3 times, in order to get good data.
             .eraseToAnyPublisher()
     }
     
