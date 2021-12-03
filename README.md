@@ -7,7 +7,7 @@ In this intermediate level app covered the following concepts.
 3. Added Persistence Layer for persist the data using CoreData framework
 4. Added Image Loading and Image local cache using File Manager class
 5. Added Cool Animations to the views which alredy existing in the View heirarchy
-6. Added Transirions while new View Coming to view heirachy and removing from View heirarchy
+6. Added transitions while new View Coming to view heirachy and while removing from View heirarchy
 7. Added publishers/subscribers concept using Combine framework.
 8. Added List Views and LazyGrid Views
 9. Added a Chart/Graph of linear from the Scratch using Path class
