@@ -20,3 +20,4 @@ In this intermediate level app covered the following concepts.
 11. Added a logic for Text to show more and less with cool animation....etc.
 12. Dark mode and Light mode support.
 13. iPhone and iPad supports the layout, in portrait mode.
+14. Added app icons and Launch Screen with cool animation and also customized the Lauch screen presentation.
