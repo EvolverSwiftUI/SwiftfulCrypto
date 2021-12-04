@@ -5,7 +5,7 @@
 In this intermediate level app covered the following concepts.
 
 1. SwiftUI medium level concepts
-2. Added Network Layer for integrating REST apis.
+2. Added Network Layer for integrating REST apis(FREE API RESOURCE LINK: https://www.coingecko.com/en/api/documentation).
 3. Added Persistence Layer for persist the data using CoreData framework
 4. Added Image Loading and Image local cache using File Manager class
 5. Added Cool Animations to the views which alredy existing in the View heirarchy
