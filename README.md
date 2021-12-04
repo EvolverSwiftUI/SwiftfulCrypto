@@ -1,6 +1,7 @@
 # SwiftfulCrypto
 
 ** Swift + SwiftUI
+**Requirements for this app is SwiftUI_Evolve_2 Repository Covered Concepts.
 
 In this intermediate level app covered the following concepts.
 
