@@ -21,6 +21,7 @@ In this intermediate level app covered the following concepts.
 12. Dark mode and Light mode support.
 13. iPhone and iPad supports the layout, in portrait mode.
 14. Added app icons and Launch Screen with cool animation and also customized the Lauch screen presentation.
+15. Added filtering through search bar and also added sort option on all 3 columns in ascending and descending orders.
 
 
 Screen Shots :
