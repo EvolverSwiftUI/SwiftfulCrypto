@@ -29,9 +29,9 @@ Screen Shots :
 
 <img src="https://user-images.githubusercontent.com/93422294/144553654-8e7f6b42-504f-48fb-92c2-9a5dad2ddcd0.png" width="400" height="790">
 <br>
-![Simulator Screen Shot - iPhone 12 - 2021-12-03 at 11 31 07](https://user-images.githubusercontent.com/93422294/144553666-181376c0-2cb9-4669-857f-b3747ba5d6b1.png)
+<img src="https://user-images.githubusercontent.com/93422294/144553666-181376c0-2cb9-4669-857f-b3747ba5d6b1.png" width="400" height="790">
 <br>
-![Simulator Screen Shot - iPhone 12 - 2021-12-03 at 11 31 17](https://user-images.githubusercontent.com/93422294/144553670-606e8af5-9cd6-4492-ba1b-23d442713161.png)
+<img src="https://user-images.githubusercontent.com/93422294/144553670-606e8af5-9cd6-4492-ba1b-23d442713161.png" width="400" height="790">
 <br>
 ![Simulator Screen Shot - iPhone 12 - 2021-12-03 at 11 31 29](https://user-images.githubusercontent.com/93422294/144553674-2fb71401-5364-4059-8a51-5c5a4f00d6c6.png)
 <br>
