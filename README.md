@@ -33,14 +33,15 @@ Screen Shots :
 <br>
 <img src="https://user-images.githubusercontent.com/93422294/144553670-606e8af5-9cd6-4492-ba1b-23d442713161.png" width="400" height="790">
 <br>
-![Simulator Screen Shot - iPhone 12 - 2021-12-03 at 11 31 29](https://user-images.githubusercontent.com/93422294/144553674-2fb71401-5364-4059-8a51-5c5a4f00d6c6.png)
+<img src="https://user-images.githubusercontent.com/93422294/144553674-2fb71401-5364-4059-8a51-5c5a4f00d6c6.png" width="400" height="790">
 <br>
-![Simulator Screen Shot - iPhone 12 - 2021-12-03 at 11 31 32](https://user-images.githubusercontent.com/93422294/144553675-2fcc5ea2-6ac8-4cda-bc86-44a687c36724.png)
+<img src="https://user-images.githubusercontent.com/93422294/144553675-2fcc5ea2-6ac8-4cda-bc86-44a687c36724.png" width="400" height="790">
 <br>
-![Simulator Screen Shot - iPhone 12 - 2021-12-03 at 11 31 41](https://user-images.githubusercontent.com/93422294/144553682-20cb6ea2-1f5a-433b-9757-3559405d6a1d.png)
+<img src="https://user-images.githubusercontent.com/93422294/144553682-20cb6ea2-1f5a-433b-9757-3559405d6a1d.png" width="400" height="790">
 <br>
-![Simulator Screen Shot - iPhone 12 - 2021-12-03 at 11 31 45](https://user-images.githubusercontent.com/93422294/144553685-9395f639-dffd-4751-85e9-eb8ba9f09c05.png)
+<img src="https://user-images.githubusercontent.com/93422294/144553685-9395f639-dffd-4751-85e9-eb8ba9f09c05.png" width="400" height="790">
 <br>
-![Simulator Screen Shot - iPhone 12 - 2021-12-03 at 11 28 31](https://user-images.githubusercontent.com/93422294/144553711-5a7217aa-e86a-44ac-95ec-98781f2604de.png)
+<img src="https://user-images.githubusercontent.com/93422294/144553711-5a7217aa-e86a-44ac-95ec-98781f2604de.png" width="400" height="790">
 <br>
-![Simulator Screen Shot - iPhone 12 - 2021-12-03 at 11 28 43](https://user-images.githubusercontent.com/93422294/144553722-6db31db5-12f7-4645-961f-a2c916d0d541.png)
+<img src="https://user-images.githubusercontent.com/93422294/144553722-6db31db5-12f7-4645-961f-a2c916d0d541.png" width="400" height="790">
+<br>
